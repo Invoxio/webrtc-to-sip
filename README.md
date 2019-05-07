@@ -27,8 +27,8 @@ You will then find the certificates under:
 ## Get configuration files
 All files needed to setup all components on Debian 9 Stretch.
 ```bash
-git clone https://github.com/havfo/WEBRTC-to-SIP.git
-cd WEBRTC-to-SIP
+https://github.com/Invoxio/webrtc-to-sip
+cd webrtc-to-sip
 find . -type f -print0 | xargs -0 sed -i 's/XXXXXX-XXXXXX/PUT-IPV6-OF-YOUR-SIP-SERVER-HERE/g'
 find . -type f -print0 | xargs -0 sed -i 's/XXXXX-XXXXX/PUT-IPV4-OF-YOUR-SIP-SERVER-HERE/g'
 find . -type f -print0 | xargs -0 sed -i 's/XXXX-XXXX/PUT-DOMAIN-OF-YOUR-SIP-SERVER-HERE/g'
